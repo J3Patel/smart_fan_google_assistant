@@ -1,0 +1,17 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "redirects": [
+      {
+        "source": "/foo",
+        "destination": "/login",
+        "type": 301
+      }
+    ]
+  },
+  "functions": {
+    "source": "functions"
+  }
+}
